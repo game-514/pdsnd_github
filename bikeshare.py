@@ -25,7 +25,7 @@ def get_filters():
         else:
             print('\nInvalid Input. At the moment we can only explore data from \'New York City\', \'Chicago\' and \'Washington\'.\n')
             continue
-    # get user input for month (all, january, february, ... , june)
+    # get input of user for month (all, january, february, ... , june)
     while True:
         month = input('Which month? January, February, March, April, May or June? Type \'all\' if you are not interested in a filter: ').lower()
         if month in ('january', 'february', 'march', 'april', 'may', 'june'):
